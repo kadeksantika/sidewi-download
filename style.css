@@ -308,6 +308,9 @@ section#application .ctr {
     section#home .judul p {
        display: none;
     }
+    section#application .judul p {
+        width: 100%;
+    }
 
     section#feature {
         padding-top: 20px;
