@@ -63,6 +63,10 @@ button {
     align-items: end;
     justify-content: end;
 }
+.btn-ctr a{
+    font-style: normal;
+    text-decoration: none;
+}
 
 button.button-download {
     display: flex;
@@ -148,6 +152,9 @@ section#home div.judul h1 {
 
 
 
+section#home div.col-1 {
+    place-items: center;
+}
 section#home div.col-1 img {
     height: 60vh;
 }
@@ -170,8 +177,6 @@ section#feature div.judul p {
 section#feature div.judul {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 section#feature div.judul h1 {
@@ -270,6 +275,9 @@ section#application .ctr {
         padding: 20px 5%;
 
     }
+    section#home div.judul h1 {
+        font-size: 1.5rem;
+    }
 
     nav img {
         height: 50px;
@@ -282,6 +290,12 @@ section#application .ctr {
     section {
         padding: 20px 5%;
     }
+    section#home div.col-1 img {
+        height: unset;
+        width: 80%;
+        
+    }
+    
 
     .icon-list {
         flex-basis: 100%;
@@ -291,8 +305,8 @@ section#application .ctr {
         width: 100%;
     }
 
-    section#application .judul p {
-        width: 100%;
+    section#home .judul p {
+       display: none;
     }
 
     section#feature {
